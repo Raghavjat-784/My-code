@@ -1,0 +1,126 @@
+#1 {
+    color:red;
+}
+
+body {
+    background-color: gray;
+}
+
+#b1 {
+    color:aquamarine;
+    background-color: lightgreen;
+}
+
+#one {
+    color:rgb(255,0,0);
+}
+
+#two {
+    color:rgb(0,255,0);
+}
+
+#three {
+    color:rgb(0,0,255);
+}
+
+#four {
+    color:#ff0000;
+}
+
+#five {
+    color:#00ff00;
+}
+
+#six {
+    color:#0000ff;
+}
+
+#p1 {
+    text-align:center;
+}
+
+#p2 {
+    font-weight: lighter;
+}
+
+#p3 {
+    font-weight: normal;
+}
+
+#p4 {
+    font-weight: bold;
+}
+
+#p5 {
+    font-weight: bolder;
+}
+
+#p6 {
+    font-weight:100;
+}
+
+#p7 {
+    font-weight: 900;
+}
+
+#p8 {
+    font-family: arial;
+}
+
+#p9 {
+    font-size: 50px;
+}
+
+#p10 {
+    line-height: 50px;
+}
+
+#p11 {
+    text-transform: uppercase;
+}
+
+#seven {
+    text-align: center;
+}
+
+#divone {
+    background-color: #fff500;
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center
+}
+
+#eight {
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #000000;*/
+    border:2px solid #000000;
+    border-radius: 5px;
+    padding-left: 25px;
+    margin-left: 25px;    
+}
+
+#b2 {
+    color:#0000ff
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+
+.a {
+    color: white;
+    margin-right: 200px;
+}
+
+#b3 {
+    color:#ffffff;
+    background-color:#f08800
+}
