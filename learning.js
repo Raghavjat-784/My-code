@@ -274,6 +274,28 @@ comments*/
     console.log(vari)
 }
 //functions
+
+//create our function
 {
-    
+       function myFunction(){
+        console.log( "my function")
+       }
+       //call our function
+       myFunction();
+}
+//function with parameters
+{
+    function myFunction(name, age){
+        console.log("my name is " + name + "and my age is " + age)
+    }
+    //call function with parameters
+    myFunction("raghav", 7)
+}
+//array functions
+{
+    myFunction = (name, age) => {
+        console.log("my name is " + name + "and my age is " +age)
+    }
+    //call array function
+    myFunction("raghav", 7)
 }
