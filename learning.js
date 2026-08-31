@@ -181,9 +181,9 @@ comments*/
 //lese-if
 {
     mode = "white"
-    if (mode = black){
+    if (mode == "black"){
         console.log("black")
-    } else if (mode = "white"){
+    } else if (mode == "white"){
         console.log("white")
     } else{
         console.log("blue")
@@ -299,3 +299,32 @@ comments*/
     //call array function
     myFunction("raghav", 7)
 }
+//querySelector with event listener
+{
+    const btn = document.querySelector("#btn")
+    btn.addEventListener("click", () => {
+        console.log("button clicked")
+    })
+}
+//class in JS
+{
+    class Student {
+        constructor(name, age){
+            this.name = name;
+            this.age = age;
+        }
+    }
+}
+//create object of class
+{
+    const student1 = new Student("raghav", 8)
+}
+//fetch API
+
+//fetch data from API
+{
+    fetch("https://google.com")
+    .then (response => response.json())
+    .then (data => console.log(data))
+}
+
